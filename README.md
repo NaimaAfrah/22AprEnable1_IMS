@@ -1,68 +1,48 @@
-Coverage: 34%
-# Project Title
+# Inventory Management system Project 22AprnEnable1_IMS
 
-One Paragraph of project description goes here
+Created an inventory management system with CRUD functionality for Customers, Items and Orders. During this project I was required to use methodologies and technologies learnt from training.
 
 ## Getting Started
+Make a folder which has nothing in it
+Next you need to git bash in the folder
+Then use git init to make it a repository
+git clone (+ the SSH Key of this online repository) to copy the project to your local system
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+GitBash is required to download this repository.
+Eclipse for java developers is also required.
 
-```
-Give examples
-```
+
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+In Eclipse, go to File, then click open Projects from File System and select your folder.
 
-Say what the step will be
+To run the project, go to the Runner object.
 
-```
-Give the example
-```
+Right-click the Runner, and 'Run As' as 'Java Application'
 
-And repeat
+You should be able see the application running in the console.
 
-```
-until finished
-```
 
-End with an example of getting some data out of the system or using it for a little demo
+
+## Jira
+
+https://naimaa1.atlassian.net/jira/software/projects/IMS/boards/1
 
 ## Running the tests
 
-Explain how to run the automated tests for this system. Break down into which tests and what they do
+To run the tests for this application, right-click the src/test/java folder and 'Run As' a JUnit Test
 
 ### Unit Tests 
 
 Explain what these tests test, why and how to run them
 
-```
-Give an example
-```
-
-### Integration Tests 
-Explain what these tests test, why and how to run them
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Make sure you are running the same Java version in your POM.xml, you will then be able to successfully deploy to your local machine.
 
 ## Built With
 
@@ -83,7 +63,4 @@ This project is licensed under the MIT license - see the [LICENSE.md](LICENSE.md
 *For help in [Choosing a license](https://choosealicense.com/)*
 
 ## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Richard Mansworth 
